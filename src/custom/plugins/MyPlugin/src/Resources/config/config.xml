@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>#ChangeColorForAddToCart# Settings</title>
+        <input-field type="single-select">
+            <name>color</name>
+            <label>Add to card button color</label>
+            <options>
+                <option>
+                    <id>green</id>
+                    <name>Green</name>
+                </option>
+                <option>
+                    <id>red</id>
+                    <name>Red</name>
+                </option>
+                <option>
+                    <id>blue</id>
+                    <name>Blue</name>
+                </option>
+            </options>
+        </input-field>
+    </card>
+</config>
